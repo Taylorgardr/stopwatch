@@ -40,14 +40,21 @@ button:hover{
 }
 
 .wrapper {
-  position: absolute;  
+  position: fixed;  /* Changed from absolute to fixed */
   top: 25%; 
   left: 35%; 
-  margin: auto; 
+  margin: 0;  /* margin:auto isn't needed with fixed positioning */
   display: flex; 
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  
+  border: thick solid #aeabc1;  
+  border-radius: 1.5rem;
+  width: 400px;  /* Fixed width instead of 30% */
+  height: 300px; /* Optional: fixed height if needed */
+  background-color: white; /* Optional: for visibility */
+}
   
   border: thick solid #aeabc1;  
   border-radius: 1.5rem;

@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Lexend+Deca&family=Noto+Sans+Mono:wght@300&display=swap');
 
-html, body {Add commentMore actions
+html, body {
   height: 100%;
 }
 
 body {
   font-family: 'Noto Sans Mono', monospace;
-  background-image: linear-gradient(rgb(109, 106, 116), rgb(45, 44, 54));
+  background: linear-gradient(rgb(109, 106, 116), rgb(45, 44, 54));
   text-align: center;
 }
 

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Lexend+Deca&family=Noto+Sans+Mono:wght@300&display=swap');
 
-html, body {
+html, body {Add commentMore actions
   height: 100%;
 }
 
@@ -40,10 +40,10 @@ button:hover{
 }
 
 .wrapper {
-  position: fixed;  /* Changed from absolute to fixed */
+  position: absolute;  
   top: 25%; 
   left: 35%; 
-  margin: 0;  /* margin:auto isn't needed with fixed positioning */
+  margin: auto; 
   display: flex; 
   flex-direction: column;
   justify-content: space-between;
@@ -51,12 +51,5 @@ button:hover{
   
   border: thick solid #aeabc1;  
   border-radius: 1.5rem;
-  width: 400px;  /* Fixed width instead of 30% */
-  height: 300px; /* Optional: fixed height if needed */
-  background-color: white; /* Optional: for visibility */
-}
-  
-  border: thick solid #aeabc1;  
-  border-radius: 1.5rem;
   width: 30%;
-}
+}Add comment

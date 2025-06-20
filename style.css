@@ -8,6 +8,10 @@ body {
   font-family: 'Noto Sans Mono', monospace;
   background: linear-gradient(rgb(109, 106, 116), rgb(45, 44, 54));
   text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* ensures full screen height */
+  overflow-x: hidden; /* prevents horizontal scroll if layout shifts */
 }
 
 h1{
